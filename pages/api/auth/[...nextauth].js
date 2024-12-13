@@ -53,7 +53,7 @@ export const authOptions = {
             }
 
             // access token expires -> refresh the token
-            return await refreshAcessToken(token)
+            return await refreshAccessToken(token)
         },
 
         async session({ session, token }) {

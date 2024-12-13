@@ -7,7 +7,7 @@ export default function useSpotify() {
 
     useEffect(() => {
         if (session) {
-            // if refresh token fails (highly unlikely)
+            // if rrefresh token fails (ihghly unlikely)
             if (session.error == "refresh token error") {
                 signIn();
             }
